@@ -45,13 +45,7 @@
 
     <div class="flex flex-row justify-between mt-4 text-sm">
       <div>
-        Powered by
-        <a class="ml-1" href="https://workers.cloudflare.com/" target="_blank">
-          Cloudflare Workers
-        </a>
-      </div>
-      <div>
-        <a href="https://github.com/kxxoling/cf-status-page" target="_blank"> Get Your Status Page </a>
+        <a href="https://discord.io/MasterMods" target="_blank"> Discord d'assistance </a>
       </div>
     </div>
   </div>
