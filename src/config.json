@@ -29,7 +29,7 @@
       "id": "anto-tebex-io",
       "name": "www.anto.tebex.io",
       "description": "La boutique d'Anto",
-      "url": "https://www.cloudflare.com",
+      "url": "https://www.anto.tebex.io",
       "method": "GET",
       "expectStatus": 200,
       "linkable": true
