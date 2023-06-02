@@ -1,45 +1,38 @@
 {
   "settings": {
-    "title": "Status Page",
-    "url": "https://raph.fun",
+    "title": "Page de status",
+    "url": "https://status.raph.fun",
     "logo": "logo-192x192.png",
     "daysInHistogram": 90,
     "collectResponseTimes": true,
-    "allMonitorsOperational": "All Systems Operational",
-    "notAllMonitorsOperational": "Not All Systems Operational",
-    "monitorLabelOperational": "Operational",
-    "monitorLabelNotOperational": "Not Operational",
-    "monitorLabelNoData": "No data",
-    "dayInHistogramNoData": "No data",
-    "dayInHistogramOperational": "All good",
+    "allMonitorsOperational": "Aucun problème",
+    "notAllMonitorsOperational": "Problèmes détectés",
+    "monitorLabelOperational": "Opérationnel",
+    "monitorLabelNotOperational": "Défaillant",
+    "monitorLabelNoData": "Pas de données",
+    "dayInHistogramNoData": "pas de données",
+    "dayInHistogramOperational": "Tout est OK",
     "dayInHistogramNotOperational": " incident(s)"
   },
   "monitors": [
     {
-      "id": "workers-cloudflare-com",
-      "name": "workers.cloudflare.com",
-      "description": "You write code. They handle the rest.",
-      "url": "https://workers.cloudflare.com/",
+      "id": "raph-fun",
+      "name": "www.raph.fun",
+      "description": "La boutique de Raph",
+      "url": "https://raph.fun/",
       "method": "GET",
       "expectStatus": 200,
       "followRedirect": false,
       "linkable": false
     },
     {
-      "id": "www-cloudflare-com",
-      "name": "www.cloudflare.com",
-      "description": "Built for anything connected to the Internet.",
+      "id": "anto-tebex-io",
+      "name": "www.anto.tebex.io",
+      "description": "La boutique d'Anto",
       "url": "https://www.cloudflare.com",
       "method": "GET",
       "expectStatus": 200,
       "linkable": true
-    },
-    {
-      "id": "blog-cloudflare-com",
-      "name": "The Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/",
-      "method": "GET",
-      "expectStatus": 200
     }
   ]
 }
