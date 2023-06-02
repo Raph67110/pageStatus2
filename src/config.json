@@ -1,7 +1,7 @@
 {
   "settings": {
     "title": "Status Page",
-    "url": "",
+    "url": "https://raph.fun",
     "logo": "logo-192x192.png",
     "daysInHistogram": 90,
     "collectResponseTimes": true,
